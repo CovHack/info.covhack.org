@@ -1,8 +1,10 @@
 module.exports = {
   siteMetadata: {
     title: "CovHack2020 - Day of Event information",
+    header: "CovHack2020",
     description: "Day of event information for CovHack2020",
     url: "https://info.covhack.org",
+    submissions: 'https://covhack2020.devpost.com/'
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -15,7 +17,7 @@ module.exports = {
         background_color: '#00aeef',
         theme_color: '#663399',
         display: 'minimal-ui',
-        icon: 'src/assets/images/website-icon.png', // This path is relative to the root of the site.
+        icon: 'src/assets/images/icon.png',
       },
     },
     'gatsby-plugin-sass',
@@ -25,6 +27,41 @@ module.exports = {
       options: {
         path: `${__dirname}/src/content`,
         name: `content`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/src/content/wifi`,
+        name: `wifi`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/src/content/has`,
+        name: `has`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/src/content/schedule`,
+        name: `schedule`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/src/content/prizes`,
+        name: `prizes`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/src/content/links`,
+        name: `links`,
       },
     },
     `gatsby-transformer-remark`,

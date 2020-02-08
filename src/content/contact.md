@@ -1,7 +1,10 @@
 ---
-
+title: Contact
+type: section
+container: text
+key: contact
+order: 9
 ---
-## Contact
  
 If you need to get hold of an organiser, the core team are wearing CovHack
 hoodies while the volunteers all have CovHack t-shirts. Both have rainbow

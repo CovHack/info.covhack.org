@@ -28,7 +28,7 @@
 
 // Palette.
 	$palette: (
-		bg:					#935d8c,
+		bg:					#00aeef, /* Renders before the gradient. Set to the color the closest matches the top of the gradient. */
 		fg:					rgba(255,255,255,0.65),
 		fg-bold:			#ffffff,
 		fg-light:			rgba(255,255,255,0.5),
@@ -49,12 +49,14 @@
 			border2-bg:		rgba(222,222,222,0.5),
 		),
 
+        /* Used for the info boxes */
 		accent:				#00aeef,
 		accent1:			#6F9564,
 		accent2:			#425685,
 		accent3:			#C37722,
 		accent4:			#8D3920,
 		accent5:			#3c1518,
+        /* Background gradient goes between these two */
 		bg1:				#00aeef,
 		bg2:				#0c2069
 	);

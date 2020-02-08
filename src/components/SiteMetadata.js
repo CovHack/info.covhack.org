@@ -7,7 +7,10 @@ const useSiteMetadata = () => {
         site {
           siteMetadata {
             title
+            header
+            description
             url
+            submissions
           }
         }
       }
