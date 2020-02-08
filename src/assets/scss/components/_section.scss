@@ -43,6 +43,11 @@
 				letter-spacing: _font(letter-spacing);
 			}
 
+            li {
+				font-size: 1.25em;
+				letter-spacing: _font(letter-spacing);
+            }
+
 			&.special {
 				text-align: center;
 
