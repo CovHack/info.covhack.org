@@ -7,6 +7,7 @@ import SubmissionsSection from './sections/Submissions'
 import ConnectivitySection from './sections/Connectivity'
 import ScheduleSection from './sections/Schedule'
 import HASSection from './sections/HAS'
+import SponsorSection from './sections/Sponsors'
 
 const InfoSection = (props) => {
   const { node } = props.data
@@ -35,6 +36,10 @@ const InfoSection = (props) => {
   } else if (containerType === 'has') {
     return (
       <HASSection node={ node } />
+    )
+  } else if (containerType === 'sponsor') {
+    return (
+      <SponsorSection node={ node } />
     )
   }
   return (<span />)
