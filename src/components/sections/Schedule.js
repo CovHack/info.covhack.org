@@ -22,7 +22,6 @@ const ScheduleSection = (props) => {
       }
     `
   )
-  console.log(schedule)
 
   return (
     <section id={node.frontmatter.key} className="main">

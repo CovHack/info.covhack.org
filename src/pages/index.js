@@ -10,7 +10,6 @@ import useSiteMetadata from '../components/SiteMetadata'
 const Index = ({ data }) => {
   const { title, header, description } = useSiteMetadata()
   const sections = data.sections.edges
-  console.log(sections)
   return (
     <Layout>
       <Helmet title={ title } />
