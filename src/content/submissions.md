@@ -20,4 +20,4 @@ Tips for demoing:
 
 Technical information about demos can be found [here](https://will-russell.com/covhack2020).
 
-Clarity on rules can be found here. Please don't submit anything that would violate our code of conduct!
+Clarity on rules can be found [here](https://github.com/MLH/mlh-hackathon-rules/blob/master/Rules.md). Please don't submit anything that would violate our code of conduct!
